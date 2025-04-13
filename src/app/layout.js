@@ -34,12 +34,12 @@ export default function RootLayout({ children }) {
         
         <div className="w-screen h-screen overflow-y-auto flex flex-col sm:flex-row gap-5 bg-slate-800 p-8">
 
-          <div className=" min-w-[320px] w-full sm:w-[320px] h-full rounded-2xl bg-white flex 
+          <div className=" min-w-[320px] w-full sm:w-[320px] h-full rounded-2xl bg-white/80 flex 
           justify-start items-center flex-col p-[30px] pt-[80px] overflow-y-auto overflow-x-hidden">
             
             <Image src={AvatarImg} alt="Avatar" className="w-[80px] h-[80px] rounded-full" />
         
-            <h1 className="mt-2">賴玟希</h1>
+            <h1 className="mt-2 font-bold">賴玟希</h1>
             <p className="max-w-[380px] text-center">
               新聞三在數位內容垂死掙扎中  <br/>想休學尋找大秘寶
             </p>
@@ -64,20 +64,20 @@ export default function RootLayout({ children }) {
               
               <Link href="/about">
                 {/* <div className="w-full h-[84px] bg-gray-300 rounded-xl">About</div> */}
-                <div className={`w-full h-[84px] bg-gray-300 rounded-xl`}>About</div>
+                <div className={`w-full h-[84px] bg-gray-500 rounded-xl`}>About</div>
               </Link>
 
               <Link href="/expertise">
-                <div className="w-full h-[84px] bg-gray-300 rounded-xl">Expertise</div>
+                <div className="w-full h-[84px] bg-gray-500 rounded-xl">Expertise</div>
               </Link>
 
               <Link href="/experience">
-                <div className="w-full h-[84px] bg-gray-300 rounded-xl">Experience</div>
+                <div className="w-full h-[84px] bg-gray-500 rounded-xl">Experience</div>
               </Link>
               
               
-              <div className="w-full h-[84px] bg-gray-300 rounded-xl">Work</div>
-              <div className="w-full h-[84px] bg-gray-300 rounded-xl">Contact</div>
+              <div className="w-full h-[84px] bg-gray-500 rounded-xl">Work</div>
+              <div className="w-full h-[84px] bg-gray-500 rounded-xl">Contact</div>
             </div>
 
           </div>
