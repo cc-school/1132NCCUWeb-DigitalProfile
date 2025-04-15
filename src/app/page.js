@@ -23,7 +23,7 @@ export default function Home() {
         onClick={addHeart}
       >
         <Image src={HeartImg} className="w-[68px]" alt="heart" />
-        <div className=" text-2xl "> { heart } </div>
+        <div className=" text-2xl text-cyan-50"> { heart } </div>
       </div>
       
     </div>
